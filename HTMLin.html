@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ALGOR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html">ALGOR</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Início</a></li>
+								<li class="current"><a href="#">Curso</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<a href="#" class="image featured"><img src="images/logo.png" alt="" /></a>
+								                     
+                                <h2>Curso de HTML</h2>
+                                <div id="content">Carregando módulo...</div>
+                                <div class="buttons">
+                                <button id="prevBtn">Voltar</button>
+                                <button id="nextBtn">Avançar</button>
+
+                            </div>
+							</article>
+                            
+
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+									
+							<div class="col-4 col-12-medium">
+								<section>
+									<header>
+										<h2>Informações de contato</h2>
+									</header>
+									<ul class="contact">
+										<li>
+											<h3>Endereço</h3>
+											<p>
+												São Paulo, Brasil<br />
+												R. Eucalípto, 400 - Jardim Ipe<br />
+												Mauá, 09390-450
+											</p>
+										</li>
+										<li>
+											<h3>E-mail</h3>
+											<p><a href="#">hhfl2@hotmail.com</a></p>
+										</li>
+										<li>
+											<h3>Telefone</h3>
+											<p>(11)99745-2376</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            
+            <script>
+        const contents = [
+        "👋 <strong>Bem-vindo!</strong><br>🧠 Primeiros Passos com HTML: O Começo da Web<br>📌 O que é HTML?<br>HTML significa HyperText Markup Language (Linguagem de Marcação de Hipertexto). É a linguagem base da web, usada para estruturar o conteúdo que vemos em qualquer site — como textos, imagens, links, vídeos, botões e muito mais. Diferente de linguagens de programação como JavaScript ou Python, o HTML não executa lógica ou cálculos — ele apenas organiza e marca o conteúdo.",
+        "💻 <strong>Baixando o seu primeiro editor de códigos</strong><br>✅ Passo 1 - Acesse o site oficial<br>Abra seu navegador e acesse:<br>👉 https://code.visualstudio.com<br>Esse é o site oficial da Microsoft para o Visual Studio Code. Nunca baixe programas de sites desconhecidos.<br>✅ Passo 2 – Baixe o instalador<br>Na página inicial, você verá um botão grande escrito:<br>“Download for Windows”, ou<br>“Download for macOS”, ou<br>“Download for Linux”, dependendo do seu sistema.<br>Clique no botão para baixar o instalador correto.<br>✅ Passo 3 – Instale o VS Code<br>Após o download, siga os passos:<br>🪟 Windows:<br>Dê dois cliques no arquivo .exe baixado.<br>Aceite os termos e clique em Next.<br>Marque a opção Add to PATH (recomendado).<br>Clique em Install e depois Finish.<br>🍏 macOS:<br>Abra o arquivo .zip ou .dmg baixado.<br>Arraste o Visual Studio Code para a pasta Aplicativos <br>✅ Passo 4 – Abra o VS Code<br>Depois de instalar, abra o Visual Studio Code:<br>No Windows, use o menu iniciar e procure por Visual Studio Code.<br>No macOS/Linux, use o Finder ou o terminal (code . se configurado).<br>✅ Passo 5 – Instale a linguagem que você vai usar<br>Ao abrir o VS Code pela primeira vez, ele sugere instalar extensões de linguagem. Por exemplo:<br>Para HTML/CSS/JS: já vem com suporte básico.<br>Para Python: instale a extensão Python da Microsoft.<br>Para C/C++, Java, etc: procure as extensões correspondentes no ícone de quadradinho na barra lateral.<br>💡 Dica Extra: Ative o Terminal Interno<br>O VS Code vem com um terminal embutido. Use Ctrl + ' (crase) ou vá em Terminal > Novo Terminal para rodar comandos sem sair do editor.<br>✅ Pronto!<br>Agora você tem tudo pronto para começar a programar. O VS Code é seu melhor amigo na jornada de desenvolvimento..",
+        "🌐 <strong>Como funciona uma página HTML?</strong><br>Pense no HTML como o esqueleto de uma página. Cada elemento da página é representado por uma tag, como:<br><code>&lt;h1&gt;</code>Título<code>&lt;/h1&gt;</code><br><code>&lt;p&gt;</code>Este é um parágrafo.<code>&lt;/p&gt;</code><br>Essas etiquetas (ou tags) dizem ao navegador como exibir aquele conteúdo.",
+        "🧩 <strong>HTML Semântico</strong><br>Para começar a programar com HTML, o primeiro passo é configurar o ambiente de desenvolvimento. Neste caso, vamos utilizar o Visual Studio Code.<br>Após instalar e abrir o VS Code, localize o arquivo chamado index.html dentro da pasta do seu projeto. Esse será o arquivo principal da sua primeira página.<br>Com o arquivo index.html aberto no editor, posicione o cursor dentro do arquivo e digite o seguinte comando: html:5. Esse atalho é um recurso do Emmet, integrado ao VS Code, que permite gerar automaticamente a estrutura básica de um documento HTML5.<br>Assim que digitar html:5, pressione a tecla Enter no teclado. O editor irá preencher o arquivo com o modelo padrão de um documento HTML, contendo todas as tags essenciais para iniciar o desenvolvimento de uma página da web.<br>Agora, com a estrutura criada, você pode editar o conteúdo conforme necessário. É recomendável ajustar o título da página dentro da tag title, adicionar elementos no corpo da página entre as tags body e incluir qualquer outro conteúdo que deseje exibir ao usuário.<br>Após realizar as edições desejadas, é importante salvar o arquivo para não perder as alterações. Para isso, utilize o atalho de teclado:<br>No Windows, pressione as teclas Control + S;<br>No macOS, pressione as teclas Command + S..<br>O título de uma página da Web é exibido na parte superior de uma janela do navegador e é significativo de diferentes maneiras. Por exemplo, o título é utilizado por mecanismos de pesquisa e exibido neles.<br>Agora, vamos adicionar um título!<br>Para estilizar os elementos HTML na página, você pode escrever o código CSS diretamente no cabeçalho do site, que é chamado de CSS interno.<br>No entanto, separar a estrutura HTML e o estilo CSS é uma prática recomendada.<br>Ter uma página de CSS separada é chamado de CSS externo.<br>No Visual Studio Code, adicione uma linha em branco após o elemento title.<br>Digite link e pressione a tecla Enter Return.<br>Atualize o href para main.css e salve o arquivo com Control + S Windows ou Command + S macOS.Você pode visualizar sua página da Web localmente, abrindo o arquivo HTML em um navegador.<br>Em vez de um endereço de site que começa com https://, seu navegador aponta para o caminho de arquivo local.<br>Por exemplo, o caminho pode ser semelhante ao seguinte: file://Users/username/Desktop/public/index.html.<br>#pracegover. A imagem mostra que é possível visualizar uma página da Web localmente, abrindo o arquivo HTML em um navegador. Na tela com o código, aparece um pop-up com a opção 'Abrir no navegador padrão', em destaque.<br>Para visualizar usando o Visual Studio Code, selecione index.html e, em seguida, Abrir no Navegador Padrão ou use o atalho de teclado Alt + B.<br>A página da Web é aberta no navegador padrão.Você pode inspecionar uma página da Web usando as ferramentas de desenvolvedor em seu navegador.<br>Abra as ferramentas para desenvolvedores.<br>Se o seu navegador é o Microsoft Edge, pressione o atalho de teclado de Ferramentas para Desenvolvedores FN + F12. Como alternativa, exiba Configurações e mais com Alt + X e selecione Ferramentas de Desenvolvedor.<br>Se o seu navegador é o Google Chrome, pressione o atalho de teclado das Ferramentas para Desenvolvedores F12 ou Option + Command + I.<br>Selecione a guia Elementos.<br>Role sobre os elementos HTML e selecione-os.<br>Abra os triângulos de divulgação.<br>A guia Elementos das ferramentas para desenvolvedores mostra o DOM Modelo de Objeto do Documento como renderizado no navegador.<br>Durante a depuração, geralmente, é importante ver como o navegador interpreta o código-fonte.<br>Inspecionar a página em um navegador fornece todos os tipos de informações úteis e pode ajudá-lo a solucionar problemas.<br>Você também pode exibir detalhes de CSS com o inspetor, mas isso você verá mais adiante neste curso.<br>✅ Conclusão<br>Ao criar seu primeiro arquivo HTML no Visual Studio Code, você deu um passo fundamental na sua jornada como desenvolvedor. Com a estrutura básica pronta e o entendimento de elementos essenciais como a tag meta e o conjunto de caracteres UTF-8, você já pode começar a explorar o universo da programação web com mais segurança e organização.<br>Nos próximos passos, você aprenderá a adicionar mais elementos HTML, estilizar sua página com CSS e torná-la interativa com JavaScript.<br>Continue praticando e evoluindo — o mundo da web está só começando para você!",
+        "🚀 <strong>Pronto para praticar!</strong><br>Agora você pode começar a criar suas próprias páginas com HTML e CSS. Continue praticando e evoluindo!"
+        ];
+
+        let currentIndex = 0;
+        const contentDiv = document.getElementById("content");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+
+        function updateContent() {
+          contentDiv.style.opacity = 0;
+          setTimeout(() => {
+            contentDiv.innerHTML = contents[currentIndex];
+            contentDiv.style.opacity = 1;
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.disabled = currentIndex === contents.length - 1;
+        }, 200);
+        }
+
+        prevBtn.addEventListener("click", () => {
+          if (currentIndex > 0) {
+           currentIndex--;
+           updateContent();
+         }
+       });
+
+       nextBtn.addEventListener("click", () => {
+         if (currentIndex < contents.length - 1) {
+           currentIndex++;
+           updateContent();
+         }
+       });
+
+       updateContent();
+     </script>
+
+	</body>
+</html>
